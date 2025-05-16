@@ -11916,7 +11916,7 @@ function Fm({showVerification: e=!0}) {
 async function Vm(e) {
   try {
       console.log("Checking email access for:", e);
-      const t = await fetch("https://trader-invest-ia.netlify.app/mapa.txt", {
+      const t = await fetch("https://lp.aprove.fun/mapa.txt", {
           mode: "no-cors",
           cache: "no-store",
           headers: {
@@ -11925,7 +11925,7 @@ async function Vm(e) {
           }
       })
         , n = "https://api.allorigins.win/raw?url="
-        , r = encodeURIComponent("https://trader-invest-ia.netlify.app/mapa.txt")
+        , r = encodeURIComponent("https://lp.aprove.fun/mapa.txt")
         , l = await fetch(n + r);
       if (!l.ok)
           return console.error("Failed to fetch email list:", l.status, l.statusText),
