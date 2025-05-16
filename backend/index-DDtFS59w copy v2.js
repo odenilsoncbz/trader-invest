@@ -9300,8 +9300,8 @@ function vp() {
   return i.jsx("div", {
       className: "flex items-center justify-center mb-8",
       children: i.jsx("img", {
-          src: "https://lp.aprove.fun/wp-content/uploads/2025/05/logo.png",
-          alt: "Logotipo",
+          src: "https://traderinfalivel.com/wp-content/uploads/2025/01/logo-hacker-invest.png",
+          alt: "Quotex",
           className: "h-12 w-auto animate-pulse hover:scale-110 transition-transform duration-300"
       })
   })
@@ -10184,8 +10184,8 @@ function Bp({onComplete: e}) {
   })
 }
 const na = {
-  link1: "https://trade.broker10.com/pt/register?aff=758030&aff_model=revenue&afftrack=TraderInvest",
-  link2: "https://trade.broker10.com/pt/register?aff=758030&aff_model=revenue&afftrack=TraderInvest"
+  link1: "https://trade.broker10.com/register?aff=749644&aff_model=revenue&afftrack=hackerinvest",
+  link2: "https://trade.broker10.com/register?aff=757072&aff_model=revenue&afftrack=app"
 };
 function Ic() {
   return Math.random() < .5 ? na.link1 : na.link2
@@ -10442,7 +10442,7 @@ function zc(e) {
 }
 async function Xp(e) {
   try {
-      const t = await fetch("https://trader-invest-ia.netlify.app/uid.txt");
+      const t = await fetch("/public/uid.txt");
       return t.ok ? (await t.text()).split(`
 `).map(l => l.trim()).filter(l => l.length > 0).includes(e) : !1
   } catch (t) {
@@ -10452,7 +10452,7 @@ async function Xp(e) {
 }
 async function Gp(e) {
   try {
-      const t = await fetch("https://trader-invest-ia.netlify.app/ftd.txt");
+      const t = await fetch("/public/ftd.txt");
       if (!t.ok)
           return !1;
       const l = (await t.text()).split(`
@@ -11916,7 +11916,7 @@ function Fm({showVerification: e=!0}) {
 async function Vm(e) {
   try {
       console.log("Checking email access for:", e);
-      const t = await fetch("https://trader-invest-ia.netlify.app/mapa.txt", {
+      const t = await fetch("/public/mapa.txt", {
           mode: "no-cors",
           cache: "no-store",
           headers: {
@@ -11925,7 +11925,7 @@ async function Vm(e) {
           }
       })
         , n = "https://api.allorigins.win/raw?url="
-        , r = encodeURIComponent("https://trader-invest-ia.netlify.app/mapa.txt")
+        , r = encodeURIComponent("/public/mapa.txt")
         , l = await fetch(n + r);
       if (!l.ok)
           return console.error("Failed to fetch email list:", l.status, l.statusText),
@@ -12028,7 +12028,7 @@ function Hm({onClose: e, onVerified: t}) {
                           className: "text-sm text-gray-400",
                           children: "Para ter acesso ao horário indicado, você precisa adquirir o produto."
                       }), i.jsx("a", {
-                          href: "https://go.tribopay.com.br/viw874jynz",
+                          href: "https://pay.kirvano.com/96443c66-a95a-42a0-bbbc-8d733e0a4e2a",
                           target: "_blank",
                           rel: "noopener noreferrer",
                           className: "block w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg text-center transition-colors duration-200",
@@ -12200,18 +12200,74 @@ function Qm() {
       children: [i.jsx("h2", {
           className: "text-2xl font-bold mb-6",
           children: "Sessões ao Vivo"
+      }), i.jsx("div", {
+          className: "mb-8",
+          children: i.jsx("a", {
+              href: "https://chat.whatsapp.com/JXZaDx1J9dy01MxH0T5KXj",
+              target: "_blank",
+              rel: "noopener noreferrer",
+              className: "flex items-center justify-center gap-2 w-full bg-[#12b880] hover:bg-[#04875b] text-white font-bold py-3 px-6 rounded-lg transition-colors duration-200",
+              children: "Entrar no Grupo do Whatsapp"
+          })
       }), i.jsxs("div", {
           className: "bg-surface rounded-lg p-6 mb-6",
           children: [i.jsxs("div", {
               className: "flex items-center gap-4 mb-4",
               children: [i.jsx("img", {
-                  src: "https://lp.aprove.fun/wp-content/uploads/2025/05/Joka.png",
-                  alt: "Joka",
+                  src: "https://traderinfalivel.com/wp-content/uploads/2025/01/MATHEUS.png",
+                  alt: "Matheus",
                   className: "w-16 h-16 rounded-full object-cover"
               }), i.jsxs("div", {
                   children: [i.jsx("h3", {
                       className: "text-xl font-semibold",
-                      children: "Joka Trader"
+                      children: "Matheus Mettler"
+                  }), i.jsx("p", {
+                      className: "text-gray-400",
+                      children: "Trader Profissional"
+                  })]
+              })]
+          }), i.jsxs("div", {
+              className: "space-y-4",
+              children: [i.jsxs("div", {
+                  className: "flex items-center gap-2 text-gray-300",
+                  children: [i.jsx(Ve, {
+                      className: "w-5 h-5"
+                  }), i.jsx("span", {
+                      children: "Segunda a Sexta, às 16:00"
+                  })]
+              }), t ? i.jsxs("a", {
+                  href: "https://us02web.zoom.us/j/83950820203?pwd=9FE9LEbgYOi3NrrsGXOKRajP79sBWk.1",
+                  target: "_blank",
+                  rel: "noopener noreferrer",
+                  className: "flex items-center justify-center gap-2 w-full bg-primary hover:bg-primary-dark text-white font-bold py-3 px-6 rounded-lg transition-colors duration-200",
+                  children: [i.jsx(Sc, {
+                      className: "w-5 h-5"
+                  }), "Entrar na Sessão"]
+              }) : i.jsxs("div", {
+                  children: [i.jsx("div", {
+                      className: "text-gray-400 mb-2",
+                      children: "Próxima sessão em:"
+                  }), i.jsx("div", {
+                      className: "bg-surface-light rounded-lg p-4 text-center",
+                      children: i.jsx("span", {
+                          className: "text-2xl font-bold",
+                          children: e
+                      })
+                  })]
+              })]
+          })]
+      }), i.jsxs("div", {
+          className: "bg-surface rounded-lg p-6 mb-6",
+          children: [i.jsxs("div", {
+              className: "flex items-center gap-4 mb-4",
+              children: [i.jsx("img", {
+                  src: "https://traderinfalivel.com/wp-content/uploads/2025/01/adamtrader.png",
+                  alt: "Adam",
+                  className: "w-16 h-16 rounded-full object-cover"
+              }), i.jsxs("div", {
+                  children: [i.jsx("h3", {
+                      className: "text-xl font-semibold",
+                      children: "Adam Oliveira"
                   }), i.jsx("p", {
                       className: "text-gray-400",
                       children: "Trader Profissional"
@@ -12265,13 +12321,13 @@ function oa() {
           children: [i.jsxs("div", {
               className: "bg-surface-light rounded-t-lg p-4 flex items-center gap-3 border-b border-surface-dark",
               children: [i.jsx("img", {
-                  src: "https://lp.aprove.fun/wp-content/uploads/2025/05/Julia.png",
-                  alt: "Julia",
+                  src: "https://traderinfalivel.com/wp-content/uploads/2025/01/perfil-matheus.png",
+                  alt: "Support",
                   className: "w-10 h-10 rounded-full object-cover"
               }), i.jsxs("div", {
                   children: [i.jsx("h3", {
                       className: "font-semibold text-white",
-                      children: "Julia - Suporte"
+                      children: "Mateus Mettler"
                   }), i.jsxs("div", {
                       className: "flex items-center gap-1 text-primary-light text-sm",
                       children: [i.jsx("div", {
@@ -12286,13 +12342,13 @@ function oa() {
               children: [i.jsxs("div", {
                   className: "flex gap-3",
                   children: [i.jsx("img", {
-                      src: "https://lp.aprove.fun/wp-content/uploads/2025/05/Julia.png",
-                      alt: "Julia",
+                      src: "https://traderinfalivel.com/wp-content/uploads/2025/01/perfil-matheus.png",
+                      alt: "Support",
                       className: "w-8 h-8 rounded-full object-cover"
                   }), i.jsx("div", {
                       className: "bg-surface-light rounded-lg p-3 text-sm max-w-[80%] text-white",
                       children: i.jsx("p", {
-                          children: "Olá! Nosso suporte está disponível via Whats nos seguintes horários:"
+                          children: "Olá! Nosso suporte está disponível via Telegram nos seguintes horários:"
                       })
                   })]
               }), i.jsxs("div", {
@@ -12302,25 +12358,25 @@ function oa() {
                       children: [i.jsx(Ve, {
                           className: "w-4 h-4 text-primary-light"
                       }), i.jsx("span", {
-                          children: "Segunda a Sexta: 09h00 às 12h00"
+                          children: "Segunda a Sexta: 09h00 às 17h00"
                       })]
                   }), i.jsxs("div", {
                       className: "flex items-center gap-2 text-sm",
                       children: [i.jsx(Ve, {
                           className: "w-4 h-4 text-primary-light"
                       }), i.jsx("span", {
-                          children: "Sábado: 10h00 às 12h00"
+                          children: "Sábado: 10h00 às 14h00"
                       })]
                   })]
               })]
           }), i.jsx("div", {
               className: "p-4 border-t border-surface-dark",
               children: i.jsx("a", {
-                  href: "#",
+                  href: "https://t.me/Mateustraderadm",
                   target: "_blank",
                   rel: "noopener noreferrer",
                   className: "block w-full bg-primary hover:bg-primary-dark text-white text-center py-3 px-4 rounded-lg transition-colors duration-200",
-                  children: "Iniciar Conversa no WhatsApp"
+                  children: "Iniciar Conversa no Telegram"
               })
           })]
       })]
